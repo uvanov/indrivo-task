@@ -222,13 +222,6 @@ p {
 
 // Checkboxes Styles
 
-/*
-    Some comments from me:
-    1. I decided to make elements from this "radio-system" without BEM-classnames. I think it doesn't require it.
-    2. I know that placing block-element inside <label> it's not a good idea,
-                                                          but in usual cases we use JS for a systems like this, right?)
- */
-
 .controlling-checkbox{
   position: absolute;
   top: -5000px;
