@@ -12,8 +12,8 @@
 
     <div id="app">
         <div class="tabs-wrapper">
-            <span class="tabs-wrapper__tab" id="myFonts">MY FONTS</span>
-            <span class="tabs-wrapper__tab --active-tab" id="buyFonts">BUY FONTS</span>
+            <span class="tabs-wrapper__tab" id="my-fonts-button">MY FONTS</span>
+            <span class="tabs-wrapper__tab --active-tab" id="buy-fonts-button">BUY FONTS</span>
         </div>
 
         <div class="view">
@@ -23,33 +23,31 @@
 
             <div class="view__shop --shown">
 
-                <input type="checkbox" class="controlling-checkbox" id="first-element">
-                <input type="checkbox" class="controlling-checkbox" id="second-element">
-                <input type="checkbox" class="controlling-checkbox" id="third-element">
+                <input type="checkbox" class="controlling-checkbox" name="controlling-checkbox" id="first-element-checkbox">
+                <input type="checkbox" class="controlling-checkbox" name="controlling-checkbox" id="second-element-checkbox">
+                <input type="checkbox" class="controlling-checkbox" name="controlling-checkbox" id="third-element-checkbox">
 
 
-
-                <div class="view__font view__font--large">
+                <label class="view__font view__font--large" for="first-element-checkbox" id="first-element">
                     <div class="view__font-logo view__font-logo--large view__font-logo--green">M</div>
                     <p class="view__font-description view__font-logo--large">Merriweather project is led by Sorkin Type</p>
-                </div>
+                </label>
 
-                <div class="view__font">
+                <label class="view__font" for="second-element-checkbox" id="second-element">
                     <div class="view__font-logo view__font-logo--pink">R</div>
                     <p class="view__font-description">Roboto doesn't compromise, allowing letters</p>
-                </div>
+                </label>
 
-                <div class="view__font">
+                <label class="view__font" for="third-element-checkbox" id="third-element">
                     <div class="view__font-logo view__font-logo--blue">NS</div>
                     <p class="view__font-description">Noto Sans covers over 30 scripts</p>
-                </div>
+                </label>
             </div>
         </div>
     </div>
 
 
-
-
-    <script src="app.js"></script>
+    <script src="./tabs.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
