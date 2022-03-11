@@ -38,6 +38,7 @@ p {
 }
 .tabs-wrapper__tab {
   cursor: pointer;
+  transition: 0.3s;
 }
 .tabs-wrapper .--active-tab {
   color: orange;
