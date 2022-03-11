@@ -1,6 +1,10 @@
 # INDRIVO Task
 
-Well, that was a funny. I work last time with Vanilla JS about a few months ago) 
+Well, that was funny. I work last time with Vanilla JS about a few months ago) 
+
+[ **findBestMatch** function placed in "app.js", tabs functionality into "tabs.js" ]
+
+[Fast Demo](https://uvanov.github.io/indrivo-task/)
 
 ### Some comments from me:
     1. I decided to make elements from "radio-system" without BEM-classnames. I think it doesn't require it.
